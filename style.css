@@ -18,7 +18,7 @@ padding: 11px 0px;
   align-items: center;
   margin: 10px;
   color: #000000;
-  font-weight: 400;
+  font-weight: 500;
 }
 .login span a{
   display: flex;
@@ -68,11 +68,14 @@ ul{
 }
 
 ul li a{
- font-style: Regular;
- font-size: 14px;
- vertical-align: Top;
- color: #000000;
- text-decoration: none;
+  vertical-align: top;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Averta Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
 }
 .section-two h3{
 width: 390px;
@@ -99,6 +102,7 @@ margin-left: 100px;
   width: 186px;
   left: 178px;
   top: 283px;
+  color: white;
   border-radius: 30px;
 }
 a.featured-area-btn.btn.btn-success{
@@ -132,10 +136,70 @@ align-items: center;
   background: #25295666;
   border-radius: 30px;
 }
-.container-three{
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border-color: none !important;
+  display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px 15px;
+gap: 6px;
+width: 190px;
+height: 36px;
+padding: 10px 15px;
+background: #252956;
+border-radius: 25px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+white-space: nowrap;
+
+color: #FFFFFF !important;
+}
+
+.nav-tabs .nav-link{
+border: none !important;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 15px;
+gap: 5px;
+width: 190px;
+height: 36px;
+background: #FFFFFF;
+border-radius: 25px;
+white-space: nowrap;
+
+color: black;
+}
+.nav-tabs .nav-link span{
+  color:white;
+}
+.nav-tabs{
+padding: 15px 15px;
+background: rgba(37, 41, 86, 0.4);
+border-radius:30px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap:10px;
+margin-top: 20px;
+}
+.tab-sec{
   display: flex;
   justify-content: center;
-  margin: 50px;
+  flex-direction: column;
+  align-items: center;
+  gap:60px;
 }
 .calculator-image{
   margin-left: 182px;
@@ -222,45 +286,67 @@ border-radius: 25px;
   padding: 5px;
 }
 .section-four h3{
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 30px;
+text-transform: capitalize;
+color: #205B5A;
 }
 .section-four .container{
   border: #000000;
+  margin-top: 17px;
 }
 .data-1 {
-  font-family: 'Jost';
+  font-family: 'Ubuntu';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 12px;
-  line-height: 17px;
-  background: #252956;
-  letter-spacing: -0.015em;
-  text-transform: uppercase;
-  color: white;
+  line-height: 16px;
+  color: #FFFFFF;
 }
 .inline{
   display: flex;
   gap: 30px;
-  border: 2px solid #252956;
-  border-radius: 18px 11px 4px 17px;
+}
+
+button.accordion-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 28px;
+    gap: 13px;
+    border-radius: 15px 0px 0px 15px;
 }
 td.data-2 {
-  font-size: 12px;
+  white-space: nowrap;
 }
 td{
   font-size: 12px;
 }
 h6{
-  background: #205B5A;
-  color: white;
-  border-radius: 15px 0px 0px 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  margin: 0px;
-  padding: 0px;
+    display: flex;
+    border-radius: 15px 0px 0px 15px;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+.inline p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1A1A1A;
 }
 .section-four{
   margin: 75px;
@@ -269,7 +355,7 @@ h6{
 .buttonss {
   display: flex;
   justify-content: center;
-  margin: 30px;
+  gap: 10px;
 }
 .A-complete{
   background-image: url(Rectangle\ 58.png);
@@ -278,7 +364,7 @@ h6{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 631px;
+  height: 692px;
   width: 100%;
 }
 .A-complete-sec{
@@ -348,6 +434,26 @@ position: relative;
   border-radius: 25px;
   padding: 8px 10px 8px 12px;
 }
+.buttonns{
+z-index: 4;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 8px 10px 8px 12px;
+gap: 5px;
+position: absolute;
+left: 150px;
+top: 300px;
+text-decoration: none;
+background: #FFFFFF;
+border-radius: 25px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+}
 
 .A-complete{
   overflow: hidden;
@@ -359,7 +465,7 @@ position: relative;
   top: 75px;
 }
 img.imag2{
-  height: 245px;
+  height: 225px;
 }   
 img.right-img {
   margin-left: 140px;
@@ -441,7 +547,7 @@ margin-right: -20px;
 }
 .text-3{
   position: relative;
-  padding:0px 160px ;
+  padding:30px 80px ;
   color: white;
   text-align: right;
 }
@@ -476,8 +582,13 @@ margin-right: -20px;
   margin: 10px;
 }
 .adress a{
-  margin: 10px;
-  color: #006250;
+    margin: 10px;
+    color: #006250;
+    font-family: 'RecifeDisplay';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
 }
 .adresss{
   display: flex;
@@ -487,12 +598,17 @@ margin-right: -20px;
   display: block;
 }
 .listed ul li a{
-  text-decoration: underline;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 14px;
-  line-height: 35px;
-  letter-spacing: 0em;
-  color: #333333;
+    width: 169px;
+    height: 210px;
+    left: 9px;
+    top: 50px;
+    font-family: 'Averta Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration-line: underline;    
+    color: #333333;
 }
 .Form{
  width: 300px;
@@ -501,7 +617,7 @@ margin-right: -20px;
  margin: 15px 0;
 }
 .Form input{
-  width: 70%;
+  /* width: 70%;
   height: 100%;
   background: transparent;
   border: 2px solid #333333;
@@ -509,25 +625,42 @@ margin-right: -20px;
   outline: none;
   padding: 0 10px;
   font-size: 20px;
-  color: #333333;
+  color: #333333; */
+    box-sizing: border-box;
+    width: 237px;
+    height: 38px;
+    border: 1px solid #333333;
 }
 .Form label{
-  position: absolute;
+  /* position: absolute;
   top: 11px;
   left: 15px;
   color: #333333;
   text-transform: capitalize;
   font-size: 18px;
   transition: top .3s;
-  padding:0 5px ;
+  padding:0 5px ; */
+    position: absolute;
+    left: 19px;
+    top: 12px;
+    pointer-events: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #757575;
+    transition: top .3s;
 }
 .Form input:focus~label{
-  top: -14px;
+  top: -8px;
   background-color: white;
 }
 .footer-1 {
   background: #27376F;
   clip-path: polygon(0 1%, 101% 34%, 100% 100%, 0% 100%);
+  height: 111px;
+  padding-top: 20px;
 }
 .footer-1-text {
   display: flex;
@@ -539,7 +672,7 @@ margin-right: -20px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 35px;
   color: white;
 }
   .footers .hower i{
@@ -553,9 +686,6 @@ margin-right: -20px;
   text-decoration: none;
   list-style: none;
 }
-.hower i:hover {
-  background-color: white;
-}
 .btn-logo{
   background: white;
   color: #27376F;
@@ -567,16 +697,27 @@ margin-right: -20px;
   height: 45px;
   font-size: 18px;
   text-decoration: none;
-  border: 2px solid green;
+  border: 2px solid;
+  border-left-color:#3634B9;
+  border-right-color:#219393 ;
 }
 .cut-off p{
   color:#333333;
 }
 .paragraph p{
-  color: #333333;
+    width: 225px;
+    font-family: 'Averta Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    padding-top: 5px;
+    margin-top: 15px;
 }
 .form-check{
   color: #333333;
+  display: inline-block;
 }
 .logo img{
   margin-top: -10px;
@@ -584,14 +725,25 @@ margin-right: -20px;
 .footers a{
   text-decoration: none;
 }
-.table tbody{
-  border: 2px solid #252956;
+td.data-2{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  width: 430px;
+  height: 40px;
 }
 .B-complete{
   color: #006250;
 }
 .adres a{
-  color: #006250;
+    color: #006250;
+    font-family: 'RecifeDisplay';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
 }
 .chevron a{
   color: #006250;
@@ -678,4 +830,197 @@ line-height: 23px;
     font-size: 14px;
     line-height: 17px;
     color: #006250;
+}
+.cut-off{
+    left: 9px;
+    top: 50px;
+    font-family: 'Averta Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.footer-heading h5{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+.footer-para{
+    top: 218px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+}
+.footer-1-text p{   
+    font-family: 'Averta Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+input#flexRadioDefault2{
+    border: 3px solid #AEAEAE;
+    filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.25));
+}
+input#flexRadioDefault3{
+    border: 3px solid #AEAEAE;
+    filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.25));
+}
+.form-label{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  width: 158px;
+  height: 38px;
+  background: #205B5A;
+  color: white;
+  border-radius: 15px 0px 0px 15px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+select.form-select{
+  width: 1137px;  
+  height: 39px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+ border-top-right-radius: 15px;
+ border-top-left-radius: 0px;
+ border-bottom-left-radius: 0px;
+}
+
+.daily-table{
+background-color:#252956;
+position: relative;
+width:100%;
+border-radius: 15px;
+color:white;
+padding: 40px 0px;
+}
+.fund-form{
+  position: absolute;
+    top: -1px;
+
+}
+tbody, td, tfoot, th, thead, tr{
+  border: none!important;
+}
+tbody.table-body{
+  color: black; 
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    background: #ffffff;
+    border-bottom-left-radius: 15px;
+    bottom: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid #5E5E5E !important;
+    left:0;
+  }
+  .data-3{
+    width: 8%;
+    text-align: center;
+  }
+  .data-4{
+    width: 10%;
+    white-space: nowrap;
+  }
+  .data-5{
+ text-align: center;
+  }
+  .data-6 {
+    text-align: start;
+    width: 12%;
+  }
+  .dataa{
+    width:40%;
+  }
+  td.data-7 {
+    text-align: start;
+    width: 15%;
+  }
+  .table-sec{
+    padding: 0px 18px;
+  }
+  .nav-item a{
+  font-family: 'Averta Demo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  }
+  .footer-icon{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+  .form-check-input:checked{
+    background: #252956;
+  }
+  a.hower{
+    transition: 0.3s;
+    transform: scale(1);
+  }
+  a.hower:hover{
+    transform: scale(1.2);
+  }
+.btn-navs{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 7px;
+color: #FFFFFF;
+width: 145px;
+height: 40px;
+margin-top: -60px;
+text-decoration: none;
+background: #252956;
+border-radius: 30px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.06em;
+text-transform: capitalize;
+}
+a.howersss{
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.3s;
+  transform: scale(1);
+}
+a.howersss:hover{
+  transform: scale(1.2);
+}
+.first-para{
+  padding: 0px 10px;
 }

@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psd3</title>
     <link rel="stylesheet" href="asstes/css/bootstrap.min.css">
     <link rel="stylesheet" href="asstes/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="asstes/css/slick-theme.css">
     <link rel="stylesheet" href="asstes/css/slick.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <script src="js/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://www.dafontfree.net/embed/YXZlcnRhLWRlbW8tcmVndWxhciZkYXRhLzgxL2EvMTkzMzA3L0F2ZXJ0YURlbW8tUmVndWxhci5vdGY" rel="stylesheet" type="text/css"/>
-    <title>psd3</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -33,9 +32,36 @@
                           </nav> -->
                           <div class="Navigations">
                             <ul>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Investment Solution</a></li>
-                                <li><a href="#">Customer Service</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      About Us
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Investment Solution
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Customer Service
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                  </li>
                                 <li><a href="#">Sales</a></li>
                                 <li><a href="#">Downloads</a></li>
                             </ul>
@@ -44,11 +70,13 @@
                     <div class="Search col-md-6">
                         <div class="login">
                             <span><a href="#">
-                                <span>Login   /   Register</span>  | </a> 
-                                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                                <span>Login   /   Register</span>  <svg xmlns="http://www.w3.org/2000/svg" width="1" height="41" viewBox="0 0 1 41" fill="none">
+<line x1="0.5" y1="2.18557e-08" x2="0.499998" y2="41" stroke="black"/>
+</svg> </a> 
+                                 <a href="#" class="hower"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
                                 <path d="M11.3713 22.7463C17.6512 22.7463 22.7422 17.6555 22.7422 11.3755C22.7422 5.09547 17.6513 0.00463867 11.3713 0.00463867C5.09132 0.00463867 0.000434875 5.09553 0.000434875 11.3755C0.000434875 17.6555 5.09138 22.7463 11.3713 22.7463ZM11.3713 3.25348C15.857 3.25348 19.4933 6.88982 19.4933 11.3755C19.4933 15.8612 15.857 19.4976 11.3713 19.4976C6.88561 19.4976 3.24927 15.8612 3.24927 11.3755C3.24927 6.88982 6.88567 3.25348 11.3713 3.25348Z" fill="black"/>
                                 <path d="M24.3662 25.9952C24.798 25.9977 25.213 25.8281 25.5195 25.5241C26.1565 24.8923 26.1607 23.8638 25.5289 23.2268C25.5258 23.2237 25.5226 23.2206 25.5195 23.2174L19.4117 17.1096C18.7523 16.4727 17.7014 16.4909 17.0644 17.1502C16.4274 17.8096 16.4456 18.8605 17.105 19.4975L23.2128 25.5241C23.5194 25.8281 23.9344 25.9977 24.3662 25.9952Z" fill="black"/>
-                                </svg></span>
+                                </svg></span></a>
                     </div>
                 </div>
             </div>
@@ -78,74 +106,134 @@
     </section>
 
     <section class="section-three">
-        <div class="container-three">
-            <div class="buttons">
-                <a class="one"  href="#"><img src="Group.png" alt="">Value Added Services</a>
-                <a class="second" href="#"><img src="Frame.png" alt="">Calculator</a>
-                <a class="three" href="#"><img src="Group.png" alt="">How to Invest</a>
-            </div>
+        <div class="container">        
+            <div class="tab-sec">
+            <nav>
+                <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                  <button class="nav-link active d-flex align-items-center gap-3" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                    <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M7.84766 0C7.62114 0 7.4375 0.183641 7.4375 0.410156V6.17969C7.4375 6.4062 7.62114 6.58984 7.84766 6.58984H13.5898C13.8164 6.58984 14 6.4062 14 6.17969C14 2.78564 11.2457 0 7.84766 0ZM8.25781 5.76953V0.836008C10.8723 1.03685 12.9654 3.14133 13.1642 5.76953H8.25781Z" fill="black"/>
+                    <path d="M8.60759 13.0811L6.61719 7.74629V2.07812C6.61719 1.85161 6.43355 1.66797 6.20703 1.66797C2.82942 1.66797 0 4.40636 0 7.82031C0 11.2087 2.802 14 6.20703 14C6.95013 14 7.67711 13.8683 8.36776 13.6084C8.57935 13.5288 8.68664 13.2929 8.60759 13.0811ZM6.20703 13.1797C3.23679 13.1797 0.820312 10.7755 0.820312 7.82031C0.820312 5.01679 3.01749 2.71165 5.79688 2.50359V7.82031C5.79688 7.86926 5.80562 7.91782 5.82274 7.9637L7.69057 12.9699C7.21052 13.1092 6.71322 13.1797 6.20703 13.1797Z" fill="black"/>
+                    <path d="M13.5898 7.41016H7.84764C7.71325 7.41016 7.58736 7.476 7.51074 7.58641C7.43407 7.69683 7.4164 7.83776 7.46338 7.9637L9.47968 13.3679C9.55931 13.5812 9.7969 13.688 10.0084 13.6084C12.3959 12.7102 14 10.3841 14 7.82031C14 7.5938 13.8163 7.41016 13.5898 7.41016ZM10.0988 12.6807L8.43843 8.22773H13.1638C13.0155 10.1496 11.8346 11.8669 10.0988 12.6807Z" fill="black"/>
+                    </svg>
+                </span>
+                Value Added Services 
+            </button>
+                  <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Calculator</button>
+                  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">How to invest</button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="calculator-image">
+                                <img src="calculate.png">
+                            </div>
+                        </div>
+                            <div class="col-md-6">
+                                <div class="texting">
+                                <h4>Tax Credit Calculator</h4>
+                                <p>Mutual fund offer considerable tax savings for individual salaried / non-salaried clients. You can use this calculator to find out how much tax savings you can get when investing in mutual fund.</p>
+                                <a href="#" class="btn-nav">Tax Calculator</a>
+                                <img src="lines.png" alt="" class="right-img">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="calculator-image">
+                                <img src="calculate.png">
+                            </div>
+                        </div>
+                            <div class="col-md-6">
+                                <div class="texting">
+                                <h4>Tax Credit Calculator</h4>
+                                <p>Mutual fund offer considerable tax savings for individual salaried / non-salaried clients. You can use this calculator to find out how much tax savings you can get when investing in mutual fund.</p>
+                                <a href="#" class="btn-nav">Tax Calculator</a>
+                                <img src="lines.png" alt="" class="right-img">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="calculator-image">
+                                <img src="calculate.png">
+                            </div>
+                        </div>
+                            <div class="col-md-6">
+                                <div class="texting">
+                                <h4>Tax Credit Calculator</h4>
+                                <p>Mutual fund offer considerable tax savings for individual salaried / non-salaried clients. You can use this calculator to find out how much tax savings you can get when investing in mutual fund.</p>
+                                <a href="#" class="btn-nav">Tax Calculator</a>
+                                <img src="lines.png" alt="" class="right-img">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
       </div>
 
-        <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="calculator-image">
-                <img src="calculate.png">
-            </div>
-        </div>
-            <div class="col-md-6">
-                <div class="texting">
-                <h4>Tax Credit Calculator</h4>
-                <p>Mutual fund offer considerable tax savings for individual salaried / non-salaried clients. You can use this calculator to find out how much tax savings you can get when investing in mutual fund.</p>
-                <a href="#" class="btn-nav">Tax Calculator</a>
-                <img src="lines.png" alt="" class="right-img">
-            </div>
-        </div>
-        </div>
-    </div>
+       
     </section>
 
     <section>
     <div class="section-four">
         <h3>Daily Funds Nav</h3>
         <div class="container">
-            <div class="inline">
-            <h6>Fund categories</h6>
-            <p>Faysal Islamic Financial Planning Fund (Faysal Sharia Capital Preservation Plan-VIII)**</p>
+            <div class="daily-table">
+              <form action="" class="d-flex fund-form">
+                <label for="exampleInputEmail1" class="form-label">Fund categories</label>                
+              <select class="form-select" aria-label="Default select example">
+                <option selected> Faysal Islamic Financial Planning Fund (Faysal Sharia Capital Preservation Plan-VIII)**</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </form>
+            
+                <div class="table-sec">
+                  <table class="table border-bottom-0 px-5">
+                     <thead class="border-bottom-0 ">
+                      <tr class="data-1">
+                        <th class="dataa">Funds</th>
+                        <th class="dataa-1">EX-NAV*</th>
+                        <th class="dataa-2">VALIDITY DATE</th>
+                        <th class="dataa-3">OFFER/SALE PRICE</th>
+                        <th class="dataa-4">RED./REP. PRICE</th>
+                        <th class="dataa-5">FUND PERFORMANCE</th>
+                      </tr>
+                    </thead>
+                    <tbody class="table-body border-bottom-0">
+                        <tr class="data">
+                        <td class="data-2">Faysal Islamic Financial Planning Fund (Faysal Sharia Capital Preservation Plan-VIII)**</td>
+                        <td class="data-3">81.46</td>
+                        <td class="data-4">25th August, 2022</td>
+                        <td class="data-5">68.56</td>
+                        <td class="data-6">68.56</td>
+                        <td class="data-7">68.56</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+          </div>
         </div>
-    <div class="daily-table">
-        <div class="table-sec">
-          <table class="table table-striped">
-             <thead>
-              <tr class="data-1">
-                <th>Funds</th>
-                <th>EX-NAV*</th>
-                <th>VALIDITY DATE</th>
-                <th>OFFER/SALE PRICE</th>
-                <th>RED./REP. PRICE</th>
-                <th>FUND PERFORMANCE</th>
-                <th>FINANCIALS</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="data">
-                <td class="data-2">Faysal Islamic Financial Planning Fund (Faysal Sharia Capital Preservation Plan-VIII)**</td>
-                <td>81.46</td>
-                <td>25th August, 2022</td>
-                <td>68.56</td>
-                <td>68.56</td>
-                <td>68.56</td>
-                <td>68.56</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="buttonss">
-        <a href="#" class="btn-nav">View archive</a>
-        <a href="#" class="btn-nav">View more</a>
-    </div>
-    </div>
-        </div>
+
+    <div class="buttonss">
+        <a href="#" class="btn-navs">View archive</a>
+        <a href="#" class="btn-navs">View more</a>
     </div>
     </section>
 
@@ -158,7 +246,7 @@
             <div class="text">
                 <h2>A Complete Investment Solution for Wealth Creation</h2>
                 <p>Mauris suscipit, risus nec ornare varius, ipsum tellus sagittis purus, a hendrerit diam orci semper arcu. Nulla commodo orci et</p>
-                <span><a href="#" class="button">View All<i class="bi bi-chevron-compact-right"></i></a></span>
+                <span><a href="#" class="buttonns">View All<i class="bi bi-chevron-compact-right"></i></a></span>
             </div>
             <div class="slider">
                 <div class="d-flex align-items gap-4">
@@ -245,7 +333,7 @@
                             </div>
                         </div>
                     </div>
-                    _____________________________________________________________________
+                    __________________________________________________________
                     <div class="main-div">
                         <div>
                             <img src="Frame 67.png" alt="image here">
@@ -262,7 +350,7 @@
                             </div>
                         </div>
                     </div>
-                       _____________________________________________________________________
+                       ___________________________________________________________
                     <div class="main-div">
                         <div>
                             <img src="Frame 67.png" alt="image here">
@@ -279,7 +367,7 @@
                             </div>
                         </div>
                     </div>
-                    _____________________________________________________________________
+                    ___________________________________________________________
                 </div>
 
                 <div class="col-md-6">
@@ -328,7 +416,7 @@
                     complaint@faysalfunds.com</P>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 footer-heading">
                     <h5>Quick Links</h5>
                     <div class="listed">
                     <ul>
@@ -342,7 +430,7 @@
                       </ul>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 footer-heading">
                     <h5>Cut Off Timings</h5>
                     <div class="cut-off">
                     <p>Cut off timings for accepting the forms for Faysal Funds</p>
@@ -356,7 +444,7 @@
                     </p>
                 </div>    
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 footer-heading">
                     <h5>NAV Subscribe</h5>
                     <div class="Form">
                         <input type="text" required>
@@ -370,7 +458,7 @@
                         <input type="number" required>
                         <label for="">Cell Number</label>
                     </div>
-                    <div>
+                    <div class="footer-para">
                         <p>Subscribe For</p>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -379,14 +467,14 @@
                             </label>
                         </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">
                                 Email Alerts
                                 </label>
                         </div>
                         <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                <label class="form-check-label" for="flexRadioDefault3">
                                 Funds Manager Reports
                                 </label>
                         </div>
@@ -396,8 +484,7 @@
             </div>
         </div>
     </section>
-    
-       
+   
        <section class="footer-1">
          <div class="container">
            <div class="row">
@@ -410,14 +497,26 @@
              </div>
                <div class="col-md-2">
                  <div class="footers">
-               <a href="#" class="hower"><i class="bi bi-facebook"></i></a>
-               <a href="#" class="hower"><i class="bi bi-twitter"></i></a>
-               <a href="#" class="hower"><i class="bi bi-linkedin"></i></a>
-               <a href="#" class="hower"><i class="bi bi-play-fill"></i></a>            
+                   <a href="#" class="hower"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                        <path d="M22 11C22 4.92422 17.0758 0 11 0C4.92422 0 0 4.92422 0 11C0 17.0758 4.92422 22 11 22C11.0645 22 11.1289 22 11.1934 21.9957V13.4363H8.83008V10.682H11.1934V8.65391C11.1934 6.30352 12.6285 5.02305 14.7254 5.02305C15.7309 5.02305 16.5945 5.09609 16.8438 5.13047V7.58828H15.4C14.2613 7.58828 14.0379 8.12969 14.0379 8.92461V10.6777H16.7664L16.4098 13.432H14.0379V21.5746C18.6355 20.2555 22 16.023 22 11Z" fill="white"/>
+                        </svg></a>
+               <a href="#" class="hower"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                <path d="M11 0C4.93462 0 0 4.93462 0 11C0 17.0649 4.93462 22 11 22C17.0649 22 22 17.0649 22 11C22 4.93462 17.0658 0 11 0ZM15.9072 8.4824C15.912 8.5914 15.9147 8.70128 15.9147 8.81116C15.9147 12.1569 13.3687 16.0135 8.71058 16.0135C7.28075 16.0135 5.94973 15.5957 4.82961 14.877C5.02767 14.9005 5.22928 14.9124 5.43354 14.9124C6.62012 14.9124 7.71143 14.5075 8.5781 13.8286C7.47039 13.8083 6.53504 13.0763 6.21292 12.07C6.36711 12.0993 6.52618 12.1157 6.68879 12.1157C6.91964 12.1157 7.14384 12.0856 7.35608 12.0275C6.19786 11.7953 5.32542 10.7723 5.32542 9.54491C5.32542 9.53428 5.32542 9.5232 5.32587 9.51301C5.66704 9.70221 6.0574 9.81652 6.47213 9.82937C5.79332 9.3761 5.34625 8.6007 5.34625 7.72251C5.34625 7.25816 5.47076 6.82305 5.68875 6.44909C6.93692 7.98127 8.80319 8.98884 10.907 9.09518C10.8635 8.90953 10.8418 8.71679 10.8418 8.51784C10.8418 7.11991 11.9752 5.98606 13.3732 5.98606C14.1016 5.98606 14.7587 6.29356 15.2213 6.78539C15.7986 6.67196 16.3392 6.46193 16.8297 6.17083C16.6391 6.76235 16.239 7.25816 15.7149 7.57186C16.2275 7.51071 16.7167 7.37513 17.1691 7.17353C16.8314 7.68042 16.4021 8.1266 15.9072 8.4824Z" fill="white"/>
+                </svg></a>
+                <a href="#" class="hower"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <path d="M11 0C4.9258 0 0 4.9258 0 11C0 17.0742 4.9258 22 11 22C17.0742 22 22 17.0742 22 11C22 4.9258 17.0742 0 11 0ZM7.80353 16.6289H5.12453V8.56908H7.80353V16.6289ZM6.46411 7.46851H6.44666C5.54767 7.46851 4.96625 6.84966 4.96625 6.07622C4.96625 5.28532 5.56546 4.68359 6.4819 4.68359C7.39835 4.68359 7.96231 5.28532 7.97977 6.07622C7.97977 6.84966 7.39835 7.46851 6.46411 7.46851ZM17.4634 16.6289H14.7848V12.3171C14.7848 11.2335 14.3969 10.4944 13.4276 10.4944C12.6875 10.4944 12.2468 10.993 12.0531 11.4742C11.9822 11.6464 11.965 11.8871 11.965 12.1279V16.6289H9.28612C9.28612 16.6289 9.3212 9.32523 9.28612 8.56908H11.965V9.71027C12.321 9.16107 12.9579 8.37991 14.3793 8.37991C16.1418 8.37991 17.4634 9.53185 17.4634 12.0074V16.6289Z" fill="white"/>
+                    </svg></a> 
+                    <a href="#" class="howersss"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" fill="#27376F"/>
+                      </svg></a>
+
                  </div>
+
             </div>
          </div>
        </div>
        </section>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+       <script src="js/owl.carousel.min.js"></script>
 </html>
